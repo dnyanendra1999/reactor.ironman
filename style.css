@@ -1,0 +1,289 @@
+*body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 1200px;
+    background-color:  #fbfbfb;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header{
+    background-color: #ce0505;
+    height: 90px;
+}
+
+.logo{
+            color:black;
+            font-size: 40px;
+            border-radius: 50%;
+            padding: 5px 12px;
+            background-color: white;
+            font-weight: bold;
+            margin-left: 80px;
+            position: relative;
+            top: 20px;
+}
+.login{
+    position: absolute;
+    left: 75%;
+    top: 30px;
+    font-size:20px;
+    border: none;
+    background-color:#ce0505;
+}
+
+.login a{
+    text-decoration: none;
+    color: black;
+    font-family: popins;
+}
+
+.account{
+    position: absolute;
+    left: 80%;
+    top: 20px;
+    font-size: 20px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color:gray;
+    border: 2px solid black;
+    padding: 10px 15px;
+}
+
+.account a{
+     text-decoration: none;
+     color: white;
+     font-family: popins;
+}
+
+.heading{
+    width: 55px;
+    height: 51px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 7%;
+    line-height: 100px;
+    color: #0f0b01;
+    text-align: left;
+    font-family: popins;
+    
+}
+
+.container{
+    height: auto;
+
+}
+
+.row{
+    display: flex;
+
+}
+
+.column1{
+    width: 30%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0 3px 6px 0 black(0, 0, 0, 0.16);
+    margin-left: 100px;
+}
+
+.section1{
+    padding: 10px 30px;
+}
+
+.filter{
+    color: #3b6019;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 0px;
+    font-family: popins;
+
+}
+
+.select-location{
+    color:#080b0f;
+    font-size: 18px;
+    padding: 20px 0px; 
+    font-family: popins;
+}
+
+.options{
+    border: 1px solid  #8c96ab;
+    font-size: 15px;
+    color: #192f60;
+    padding: 5px 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.cuisine{
+    color: #00030a;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.checkbox{
+    color:  #8c96ab;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    
+    
+}
+
+
+.radio{
+    color:  #8c96ab;
+    font-size: 18px;
+    margin-top: 10px; 
+}
+
+input[type="radio"]{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.cost1{
+    color: #192f60;
+    font-size: 20px;
+    font-weight: bold;
+}
+.radio{
+    color:  #8c96ab;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+    
+.sort{
+    color: #192f60;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.sortoption{
+    color:  #8c96ab;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
+.row1{
+    width: 68%;
+}
+.column2{
+    width: 90%;
+    height: 340px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    margin: 0px 30px 0px 50px;
+}
+
+img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 25%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.16);
+    margin: 20px 40px;
+
+}
+.column3{
+    width: 90%;
+    height: 340px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    margin: 70px 30px 0px 50px;
+}
+
+.image{
+    display: inline-block;
+         
+}
+.side{
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 20px;
+}
+
+.chill{
+    font-size: 30px;
+    font-weight: bold;
+    color: #192f60;
+
+
+}
+
+.fort{
+    font-size: 20px;
+    color: #192f60;
+    font-weight: bold;
+
+}
+.shop1{
+    color: #8c96ab;
+    font-size: 20px;
+}
+.hr{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.cuisines{
+    color:  #8c96ab;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+
+.bakery{
+    color: #192f60;
+    font-size: 20px;
+    font-family: popins;
+    padding: 80px;
+}
+.cost{
+    color:  #8c96ab;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+.money{
+    color: #192f60;
+    font-size: 20px;
+    margin-left: 50px;
+    font-family: popins;
+
+}
+
+.pagination{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left:550px;
+
+}
+.pagination a{
+       font-size: 20px;
+       color: black;
+       text-decoration: none;
+       padding: 8px 15px;
+       border: 2px solid dodgerblue;
+       border-radius: 10px;
+      
+    }
+    .pagination a.active {
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 15px;
+      }
+      
+      .pagination a:hover:not(.active) {
+        background-color: orangered;
+        color: white;
+        border-radius: 15px;
+      }
